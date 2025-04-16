@@ -4,6 +4,7 @@ import { Linkedin } from 'lucide-react';
 import { Github } from 'lucide-react';
 import { Twitter } from 'lucide-react';
 
+
 const Navbar = () => { 
 let handlelinkdin=()=>{
   window.location.href="https://www.linkedin.com/in/anuj-taywade-326881270/"
@@ -23,7 +24,7 @@ let handleTwitter=()=>{
 
 return (
     <div >
-    <div className="flex justify-between items-center px-10 py-4 text-white bg-black pr-25">
+    <div className="flex justify-between items-center px-10 py-2 text-white bg-black pr-25">
       
       <div className="text-4xl text-[#C81636] pt-13 px-35 ">
         Anuj
