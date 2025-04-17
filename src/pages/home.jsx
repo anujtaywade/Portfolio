@@ -37,7 +37,7 @@ const Home = () => {
 
       <div className='px-100 absolute top-1/2  right-20 transform -translate-y-1/2 pb-40 pr-30'>
         <h1 className='text-5xl font-'>
-          Hi, It's <span className='text-[#C81636]'>Anuj</span> <br/> <span className='mt-5 block'> I'm a <span className='text-[#C81636]'>frontend</span> developer</span>
+          Hi, It's <span className='text-[#C81636]'>Anuj</span> <br/> <span className='mt-5 block'> I'm a <span className='text-[#C81636]'>Frontend</span> Developer</span>
         </h1>
         <span className='mt-6 block '><p className='absolute right '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur atque ipsum ut asperiores et magnam, cum at repudiandae in molestiae mollitia doloribus earum tempora voluptatum? Reiciendis sequi quisquam ducimus aperiam laboriosam iusto voluptas error porro quasi, rerum ex illum quia adipisci dolorem deleniti necessitatibus delectus harum vero eius! Dolorum, commodi.</p></span>
       </div>
