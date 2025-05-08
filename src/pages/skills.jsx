@@ -5,8 +5,14 @@ const Skills = () => {
     
     return (
         <div>
-     <h1>skills</h1>
+     <div> 
+     <h1 className='text-5xl w-full flex justify-center pt-40  '> My <span className='ml-4 text-[#C81636]'>Skills</span></h1>
+     </div>
+
+     <div className=''></div>
         </div>
+
+        
     );
 }
 
