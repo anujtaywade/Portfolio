@@ -24,8 +24,8 @@ const Home = () => {
     
     return (
         <div className='className="flex justify-between items-center px-10 py-2 text-white bg-black pr-25'>
-        <div className="text-4xl text-[#C81636] pt-13 px-35 ">
-        Anuj
+        <div className="text-4xl text-[#76B5CB] pt-13 px-35 ">
+        A-<span className='text-[#C81636]'>Folio</span>
       </div>
 
       
