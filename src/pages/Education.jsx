@@ -13,7 +13,7 @@ const Education = () => {
             title: ' Higher Secondary Education',
             institute: 'Alphonsa Sr. Sec ',
             break:'School',
-            year: '2019-2020',
+            year: '2020-2022',
             icon: <School size={70} className="text-white" />,
         },
         {

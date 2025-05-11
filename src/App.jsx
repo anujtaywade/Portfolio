@@ -6,6 +6,7 @@ import Home from './pages/home';
 import Experience from "./pages/Experience";
 import Education from './pages/Education';
 import Contact from './pages/Contact';
+
 function App() {
  
 
@@ -14,6 +15,7 @@ function App() {
 <div className='min-h-screen bg-black text-white'>
 <BrowserRouter>
         <Navbar />
+       
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
@@ -27,6 +29,6 @@ function App() {
 </div>
  )
 }
-import { Import } from 'lucide-react';
+
 
 export default App
