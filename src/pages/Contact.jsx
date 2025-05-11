@@ -11,6 +11,7 @@ const Contact= () => {
         setformData({...formData,[e.target.name]:e.target.value})
     }
 
+
     let sendEmail= (e)=>{
         e.preventDefault()
     
@@ -38,7 +39,7 @@ const Contact= () => {
             CONTACT<span className='text-[#C81636] pl-3'> ME</span>
             </h1>
 
-          <form className='max-w-md mx-auto mt-10 space-y-4 '>
+          <form className='max-w-md ml-100 mt-20  space-y-4 border-1 p-10 rounded-xl'>
            <input type="text"
            name='name'
            placeholder='Your name'
@@ -58,8 +59,11 @@ const Contact= () => {
            value={formData.message}
            onChange={handlechange}
            className='w-full border border-gray-300 pb-20 pl-2 rounded'>
-            
-           </textarea>
+            </textarea>
+
+            <button type='submit'  className='bg-[#C81636] p-1 rounded ml-1'>
+                submit
+            </button>
           </form>
             
         </div>
