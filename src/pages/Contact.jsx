@@ -30,8 +30,6 @@ const Contact= () => {
             alert("failed to send message")
         })
 }
-
-
     return (
         <div>
             <h1 className=' flex justify-center pt-30 text-5xl '>
