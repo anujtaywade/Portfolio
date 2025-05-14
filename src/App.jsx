@@ -15,7 +15,6 @@ function App() {
 <div className='min-h-screen bg-black text-white'>
 <BrowserRouter>
         <Navbar />
-       
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
