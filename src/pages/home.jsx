@@ -6,19 +6,19 @@ import { Twitter } from 'lucide-react';
 const Home = () => {
 
     let handlelinkdin=()=>{
-        window.location.href="https://www.linkedin.com/in/anuj-taywade-326881270/"
+        window.open("https://www.linkedin.com/in/anuj-taywade-326881270/","_blank")
       }
       
       let handleGithub=()=>{
-        window.location.href="https://github.com/anujtaywade"
+        window.open("https://github.com/anujtaywade","_blank")
       }
       
       let handleInstagram=()=>{
-        window.location.href="https://www.instagram.com/anuj_taywade07/"
+        window.open("https://www.instagram.com/anuj_taywade07/","_blanl")
       }
       
       let handleTwitter=()=>{
-        window.location.href="https://x.com/AnujTaywade"
+        window.open("https://x.com/AnujTaywade","_blank")
       }
       
     
